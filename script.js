@@ -2,7 +2,7 @@ function checkPalindrome() {
     // Get input string
     const inputString = document.getElementById('inputString').value.toLowerCase();
 
-    // Remove non-alphanumeric characters
+    // Remove non-alphanumeric characters and spaces
     const cleanedString = inputString.replace(/[^a-z0-9]/g, '');
 
     // Reverse the string
